@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <TextView
+            android:text="Name:"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:text="Age:"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+    android:text="Abhinandan"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+    android:text="21"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        </TextView>
+    </TableRow>
+
+
+</TableLayout>
