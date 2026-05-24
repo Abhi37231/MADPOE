@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     Button b1,b2,b3,b4;
     TextView t1;
 
+
     EditText e1,e2;
 
     @Override
@@ -76,13 +77,11 @@ public class MainActivity extends AppCompatActivity {
         b4.setOnClickListener(new View.OnClickListener() {
 
             @Override
-            public void onClick(View v) {
-
+            public void onClick(View v){
                 int a = Integer.parseInt(e1.getText().toString());
                 int b = Integer.parseInt(e2.getText().toString());
                 int c = a / b;
                 t1.setText("Division = " + c);
-
             }
         });
 
